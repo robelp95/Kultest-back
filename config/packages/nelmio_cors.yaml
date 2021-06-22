@@ -1,0 +1,7 @@
+nelmio_cors:
+    paths:
+        '^/api/v1/':
+          allow_headers: ['X-AUTH-TOKEN', 'x-auth-token']
+          allow_methods: ['POST', 'GET', 'DELETE']
+          expose_headers: ['X-AUTH-TOKEN', 'x-auth-token']
+          max_age: 3600

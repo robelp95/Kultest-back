@@ -1,0 +1,4 @@
+App\Form\Model\MenuDto:
+  properties:
+    id:
+    products:

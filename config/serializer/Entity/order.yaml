@@ -1,0 +1,18 @@
+App\Entity\Order:
+  attributes:
+    id:
+      groups: ['order', 'user']
+    type:
+      groups: ['order', 'user']
+    client:
+      groups: ['order', 'user']
+    contact:
+      groups: ['order', 'user']
+    total:
+      groups: ['order', 'user']
+    orderNumber:
+      groups: ['order', 'user']
+    products:
+      groups: ['order', 'user']
+    createdAt:
+      groups: ['order', 'user']

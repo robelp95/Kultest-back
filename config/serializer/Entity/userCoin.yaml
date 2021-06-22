@@ -1,0 +1,8 @@
+App\Entity\Coin:
+  attributes:
+    id:
+      groups: ['user', 'menu', 'coin']
+    name:
+      groups: ['user', 'menu', 'coin']
+    description:
+      groups: ['user', 'menu', 'coin']

@@ -1,0 +1,16 @@
+App\Entity\Product:
+  attributes:
+    id:
+      groups: ['product', 'menu', 'user']
+    name:
+      groups: ['product', 'menu', 'user']
+    description:
+      groups: ['product', 'menu', 'user']
+    price:
+      groups: ['product', 'menu', 'user']
+    enabled:
+      groups: ['product', 'menu', 'user']
+    category:
+      groups: ['product', 'menu', 'user']
+    image:
+      groups: ['product', 'menu', 'user']

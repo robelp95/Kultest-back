@@ -1,0 +1,26 @@
+App\Form\Model\OrderDto:
+  properties:
+    type:
+      - NotBlank: ~
+    client:
+      - NotBlank: ~
+    contact:
+      - NotBlank: ~
+    total:
+      - NotBlank: ~
+    orderNumber:
+      - NotBlank: ~
+    products:
+      - NotBlank: ~
+#      - NotNull: ~
+#      - Collection:
+#          fields:
+#            name:
+#              - NotBlank: ~
+#            quantity:
+#              - NotBlank: ~
+#            price:
+#              - NotBlank: ~
+#            total:
+#              - NotBlank: ~
+#          allowMissingFields: false

@@ -1,0 +1,10 @@
+App\Entity\OrderProduct:
+  attributes:
+    id:
+      groups: ['order', 'user']
+    name:
+      groups: ['order', 'user']
+    quantity:
+      groups: ['order', 'user']
+    price:
+      groups: ['order', 'user']

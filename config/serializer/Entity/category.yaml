@@ -1,0 +1,8 @@
+App\Entity\Category:
+  attributes:
+    id:
+      groups: ['category', 'user']
+    name:
+      groups: ['category', 'user']
+    description:
+      groups: ['category', 'user']

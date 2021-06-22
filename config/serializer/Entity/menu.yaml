@@ -1,0 +1,6 @@
+App\Entity\Menu:
+  attributes:
+    id:
+      groups: ['menu', 'user']
+    products:
+      groups: ['menu', 'user']

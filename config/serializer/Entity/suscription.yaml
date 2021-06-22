@@ -1,0 +1,14 @@
+App\Entity\Suscription:
+  attributes:
+    id:
+      groups: ['user', 'suscription']
+    paykuId:
+      groups: ['user', 'suscription']
+    url:
+      groups: ['user', 'suscription']
+    createdAt:
+      groups: ['user', 'suscription']
+    status:
+      groups: ['user', 'suscription']
+    plan:
+      groups: ['user', 'suscription']

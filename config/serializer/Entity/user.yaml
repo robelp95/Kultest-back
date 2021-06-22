@@ -1,0 +1,48 @@
+App\Entity\User:
+  attributes:
+    id:
+      groups: ['user', 'menu']
+    address:
+      groups: ['user', 'menu']
+    brandName:
+      groups: ['user', 'menu']
+    category:
+      groups: ['user', 'menu']
+    createdAt:
+      groups: ['user']
+    deliveryCharge:
+      groups: ['user', 'menu']
+    description:
+      groups: ['user', 'menu']
+    email:
+      groups: ['user']
+    image:
+      groups: ['user', 'menu']
+    menu:
+      groups: ['user', 'menu']
+    minDelivery:
+      groups: ['user', 'menu']
+    name:
+      groups: ['user']
+    open:
+      groups: ['user', 'menu']
+    opening:
+      groups: ['user', 'menu']
+    orderVia:
+      groups: ['user']
+    orders:
+      groups: ['user']
+    paymentInstructions:
+      groups: ['user', 'menu']
+    paykuId:
+      groups: ['user']
+    phoneNumber:
+      groups: ['user', 'menu']
+    userCoin:
+      groups: ['user', 'menu']
+    username:
+      groups: ['user']
+    suscription:
+      groups: ['user']
+
+

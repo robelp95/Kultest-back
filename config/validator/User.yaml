@@ -1,0 +1,49 @@
+App\Form\Model\UserDto:
+  properties:
+    address:
+      - NotBlank: ~
+    base64Image:
+    brandName:
+      - NotBlank: ~
+      - Length:
+          min: 5
+          max: 255
+          minMessage: 'Product description name must be al least {{ limit }} characters long'
+          maxMessage: 'Product description name cannot be longer than {{ limit }} characters'
+    categoryId:
+      - NotBlank: ~
+    description:
+      - NotBlank: ~
+      - Length:
+          min: 3
+          max: 255
+          minMessage: 'Product description name must be al least {{ limit }} characters long'
+          maxMessage: 'Product description name cannot be longer than {{ limit }} characters'
+    email:
+      - NotBlank: ~
+    name:
+      - NotBlank: ~
+      - Length:
+          min: 3
+          max: 100
+          minMessage: 'Product name must be al least {{ limit }} characters long'
+          maxMessage: 'Product name cannot be longer than {{ limit }} characters'
+    minDelivery:
+      - NotBlank: ~
+    deliveryCharge:
+      - NotBlank: ~
+    phoneNumber:
+      - Positive: ~
+      - Length:
+          min: 8
+          max: 12
+          minMessage: 'phoneNumber must be at least {{ limit }} numbers long'
+          maxMessage: 'phoneNumber cannot be longer than {{ limit }} numbers'
+    open:
+#      - NotBlank: ~
+    opening:
+      - NotBlank: ~
+    paymentInstructions:
+      - NotBlank: ~
+    username:
+      - NotBlank: ~

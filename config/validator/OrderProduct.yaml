@@ -1,0 +1,9 @@
+App\Form\Model\OrderProduct:
+  properties:
+    id:
+    name:
+      - NotBlank: ~
+    quantity:
+      - NotBlank: ~
+    price:
+      - NotBlank: ~

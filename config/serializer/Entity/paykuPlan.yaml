@@ -1,0 +1,8 @@
+App\Entity\PaykuPlan:
+  attributes:
+    id:
+      groups: ['plan', 'user']
+    name:
+      groups: ['plan', 'user']
+    paykuId:
+      groups: ['plan', 'user']
